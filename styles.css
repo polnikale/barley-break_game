@@ -34,6 +34,7 @@ h1 {
 }
 
 .boxes {
+    cursor: pointer;
     width: 70px;
     height: 70px;
     margin: 3px;
