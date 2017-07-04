@@ -1,5 +1,5 @@
 .wrapper {
-    margin: 50px auto;
+    margin: 20px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -19,6 +19,7 @@ body {
 
 h1, h3 {
     color: lightblue;
+    font-family: sans-serif;
 }
 
 h3 {
@@ -28,10 +29,14 @@ h3 {
 
 h1 {
     font: 26px;
-    margin-top: 100px;
+    margin-top: 10px;
     text-align: center;
-    font-family: sans-serif;
 }
+
+.winner {
+    display: none;
+}
+/*Polotnianko Mykola (c)2017*/
 
 .boxes {
     cursor: pointer;
@@ -49,3 +54,29 @@ h1 {
 .picked {
     background: lightgreen;
 }
+
+.count {
+    float: right;
+    font: 20px sans-serif;
+    color: lightgreen;
+}
+
+
+.start-again {
+    display: inline-block;
+    padding: 10px 40px;
+    border: 1px solid rgb(150, 136, 14);
+    color: rgb(150, 136, 14);
+    font: 16px sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.start-again:hover {
+    color: rgb(180, 180, 14);
+    border-color: rgb(180, 180, 14);
+}
+
