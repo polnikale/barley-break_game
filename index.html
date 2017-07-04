@@ -8,8 +8,12 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Barley-break</h1>
-    <h3>Made by Polotnianko Mykola</h3>
+    <div class="info">
+        <h1>Barley-break</h1>
+        <h3>Made by Polotnianko Mykola</h3>
+        <h3>You'll move a black box; boxes, which are green - are boxes, with which you can swap position. Good Luck!</h3>
+        <h1 class="winner">YOU WON!</h1>
+    </div>
     <div class="wrapper">
         <span class="boxes"></span>
         <span class="boxes"></span>
@@ -27,6 +31,11 @@
         <span class="boxes"></span>
         <span class="boxes"></span>
         <span class="boxes"></span>
+    </div>
+    <div class="count">
+        <a class="start-again">again?</a>
+        <h5 id="move-counter">Number of moves: 0</h5>
+        <h5 id="time-counter">Wasted time: 0</h5>
     </div>
 
     <script src="script.js"></script>
